@@ -11,24 +11,26 @@ Implements admin interface to manipulate data and user access throught api
 
 # Plan of execution:
 
-* [] Core functionlity
-    * [] Authentication system
-        * [] login + password
-        * [] token
-        * [] rsa
-    * [] Encrypted storage
-    * [] API
-        * [] GET value (user role)
-    * [] Admin
-        * [] POST value (admin role)
-        * [] Rotate encryption keys (admin role)
-        * [] Allow different method for authentication (admin role)
-    * [] CI/CD
-        * [] Server
-        * [] Proper deployment policy (tests, etc)
-    * [] Tests
-* [] Additionla functionality
-    * [] Proxy for using data without gaining acccess to it
-        * [] New 'user' role
-        * [] Query construction to fill missing info
-    * [] TBD
+- [ ] Core functionlity
+   - [ ] Authentication system
+      - [ ] Login + password
+      - [ ] Token
+      - [ ] RSA
+   - [ ] Encrypted storage
+   - [ ] API
+      - [ ] Create storage
+      - [ ] User
+         - [ ] Get value 
+      - [ ] Admin
+         - [ ] POST value
+         - [ ] Rotate encryption keys
+         - [ ] Allow different method for authentication
+   - [ ] CI/CD
+   - [ ] Tests
+- [ ] Additionla functionality
+   - [ ] Proxy for using data without gaining acccess to it
+      - [ ] New 'user' role
+   - [ ] New 'user' role
+      - [ ] Query construction to fill missing info
+   - [ ] Frontend for admin
+   - [ ] TBD
